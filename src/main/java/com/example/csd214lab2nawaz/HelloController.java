@@ -32,10 +32,10 @@ public class HelloController implements Initializable {
 
     @FXML
     protected void onHelloButtonClick() {
-        loadData();
+        fethdata();
     }
 
-    private void loadData() {
+    private void fethdata() {
         list.clear();
 
         String jdbcUrl = "jdbc:mysql://localhost:3306/db_csd214_lab2";
